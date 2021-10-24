@@ -18,8 +18,11 @@ public class ДЗ1 {
         }
     }
     public static void checkSumSign () {
-        int a=-14;
-        int b=20;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Введите число a:");
+        int a = sc.nextInt();
+        System.out.println("Введите число b:");
+        int b = sc.nextInt();
         int c = a + b;
             if (c >= 0) {
                 System.out.println("Сумма положительная");
@@ -27,7 +30,9 @@ public class ДЗ1 {
 
     }
     public static void printColor (){
-        int value = 100;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Введите число от 0 до 101");
+        int value = sc.nextInt();
         if (value<=0)
             System.out.println("Red");
         else if (value > 0 & value <= 100)
@@ -35,9 +40,11 @@ public class ДЗ1 {
         else System.out.println("Green");
     }
     public static void compareNumbers (){
-
-        int a = 25;
-        int b = 60;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Введите число а:");
+        int a = sc.nextInt();
+        System.out.println("Введите число а:");
+        int b = sc.nextInt();
         if (a>=b)
             System.out.println("a >= b");
         else System.out.println(a < b);
