@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ДЗ1 {
+public class HomeWork1 {
     private static Scanner scanner= new Scanner(System.in);
 
     public static void main (String[] args){
