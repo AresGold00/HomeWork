@@ -13,7 +13,7 @@ public class ДЗ1 {
     public static void  printThreeWords (String s){
 
         for ( int i = 0; i < 3; i++) {
-            if ( i != 3) System.out.print(s + " ");
+            if ( i != 2) System.out.print(s + " ");
             else System.out.println(s);
         }
     }
@@ -43,7 +43,7 @@ public class ДЗ1 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите число а:");
         int a = sc.nextInt();
-        System.out.println("Введите число а:");
+        System.out.println("Введите число b:");
         int b = sc.nextInt();
         if (a>=b)
             System.out.println("a >= b");
