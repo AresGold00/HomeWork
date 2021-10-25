@@ -2,14 +2,19 @@ package Доп_Задания;
 
 import java.util.Scanner;
 
-public class Задания {
-    static Scanner sc = new Scanner(System.in);
-
-    public static void  main (String[] args){
-        Shifr();
+public class Work {
+    static Scanner sc =new Scanner(System.in);
+    public void  main (String[]  args){
+//        System.out.println("Введите номер задания:");
+//        System.out.println("1. Сложение");
+//        System.out.println("2. Вычитание");
+//        int  operation = sc.nextInt ();
+//            this.Shifr = 1;
+//            this.Yravnenie = 2;
+        Shifr ();
         Yravnenie();
     }
-    public static void Shifr(){
+    public static void Shifr () {
         String str = sc.next();
         int key =1 ;
         String new_str = "";
@@ -31,6 +36,7 @@ public class Задания {
 
 
     public static void Yravnenie() {
+
         double a, b, c, D, X1, X2;
         System.out.println(" Программа 'Квадратное уравнение' \n Вычисляет решение квадратного уравнения 'ax^2 + bx+c = 0' \n Введите a, b и c:");
         a = sc.nextDouble();
