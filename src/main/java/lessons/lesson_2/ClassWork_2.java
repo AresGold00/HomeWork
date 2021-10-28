@@ -1,8 +1,10 @@
 package lessons.lesson_2;
 
+import java.util.Scanner;
+
 public class ClassWork_2 {
     static int classIntVariable = 15;
-
+    static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) { //psvm
 //        methodsExample();
 //        vendingWithIfs();
@@ -14,6 +16,11 @@ public class ClassWork_2 {
 //        forLoopDouble();
 //        arraySimpleExample();
 
+
+    }
+
+
+    public static void Month(){
         String[] strings = {
                 "March",
                 "April",

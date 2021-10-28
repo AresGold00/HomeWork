@@ -12,6 +12,7 @@ public class HomeWorkApp {
         compareNumbers();
 
     }
+
     public static void  printThreeWords (String s){
 
         for ( int i = 0; i < 3; i++) {
