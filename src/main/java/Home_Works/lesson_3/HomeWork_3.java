@@ -12,7 +12,7 @@ public class HomeWork_3 {
 //        task_2();
 //        task_3();
 //        task_4();
-        task_5(5,1);
+//        task_5(5,1);
 //        task_6();
 //        System.out.println(task_7(arr7));
     }
@@ -106,5 +106,6 @@ public class HomeWork_3 {
         return false;
 
     }
+
 }
 
