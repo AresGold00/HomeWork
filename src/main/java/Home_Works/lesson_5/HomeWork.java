@@ -23,6 +23,7 @@ public class HomeWork {
 //        System.out.println(staff1.pNumber);
 //        System.out.println(staff1.salary);
 //        System.out.println(staff1.age);
+
         Staff[] staff1 = new Staff[5];
         staff1[0] = new Staff("Muratov Fedor", "Main", "muratov12@gmail.com", "892312312",150000,41);
         staff1[1] = new Staff("Petrov Petr", "Creator", "petrov@mailbox.com", "892312314",50000,32);

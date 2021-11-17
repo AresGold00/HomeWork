@@ -1,4 +1,4 @@
-package lessons.lesson_5;
+package lessons.lesson_5_oop;
 
 public class Cat {
     static String name;

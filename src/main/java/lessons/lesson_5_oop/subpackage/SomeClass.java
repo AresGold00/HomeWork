@@ -1,4 +1,4 @@
-package lessons.lesson_5.subpackage;
+package lessons.lesson_5_oop.subpackage;
 
 //import lessons.lesson_5.Cat;
 
